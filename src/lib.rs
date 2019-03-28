@@ -222,7 +222,7 @@ mod windows {
         }
 
         super::fixes_newline(&mut password);
-
+        println!("\n");
         Ok(password)
     }
 
